@@ -1,4 +1,4 @@
-# SICAds 7.4.12
+# SICAds 7.4.13
 
 SICAds Static Library via Pods
 
@@ -7,6 +7,9 @@ SICAds Static Library via Pods
 [![Version](https://img.shields.io/cocoapods/v/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
 [![License](https://img.shields.io/cocoapods/l/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
 [![Platform](https://img.shields.io/cocoapods/p/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
+
+## What is new in 7.4.13 version
+1. Revmob added as separate framework
 
 ## What is new in 7.4.12 version
 1. Replaced Appodeal dependencies with original ones (StartApp added as separate framework)
@@ -212,7 +215,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TargetName' do
 
-pod 'Revmob', :podspec => "https://raw.githubusercontent.com/DmitriiP/Revmob-Ios-Pod/master/Revmob.podspec"
 pod 'SICAds', :git => 'https://github.com/admincaf/SICAds_library.git'  
 
 end

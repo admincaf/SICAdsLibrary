@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SICAds"
-  s.version          = "7.4.12"
+  s.version          = "7.4.13"
   s.summary          = "Client SICAds library."
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "include/*.h"
   s.preserve_paths = "libSicAds.a"
   s.ios.vendored_library = "libSicAds.a"
-  s.ios.vendored_frameworks = 'StartApp.framework', 'RevMobAds.framework'
+  s.vendored_frameworks = 'StartApp.framework', 'RevMobAds.framework'
   s.resource = 'StartApp.bundle'
   # s.social_media_url = "https://twitter.com/<TWITTER_USERNAME>"
 
