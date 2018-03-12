@@ -1,4 +1,4 @@
-# SICAds 7.4.11
+# SICAds 7.4.12
 
 SICAds Static Library via Pods
 
@@ -7,6 +7,10 @@ SICAds Static Library via Pods
 [![Version](https://img.shields.io/cocoapods/v/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
 [![License](https://img.shields.io/cocoapods/l/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
 [![Platform](https://img.shields.io/cocoapods/p/SICAds.svg?style=flat)](http://cocoapods.org/pods/SICAds)
+
+## What is new in 7.4.12 version
+1. Replaced Appodeal dependencies with original ones (StartApp added as separate framework)
+2. Preparing project for tagging and trunkating Cocoapod
 
 ## What is new in 7.4.11 version
 1. Added [iSoma init] call before any Smaato operations
@@ -204,7 +208,6 @@ pod init
 platform :ios, '8.1'
 inhibit_all_warnings!
 
-source 'https://github.com/admincaf/SICAdsSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TargetName' do
