@@ -29,14 +29,14 @@ Pod::Spec.new do |s|
   s.public_header_files = "include/*.h"
   s.preserve_paths = "libSicAds.a"
   s.ios.vendored_library = "libSicAds.a"
-  s.ios.vendored_frameworks = 'StartApp.framework'
+  s.ios.vendored_frameworks = 'StartApp.framework', 'RevMobAds.framework'
   s.resource = 'StartApp.bundle'
   # s.social_media_url = "https://twitter.com/<TWITTER_USERNAME>"
 
   s.platform     = :ios, '8.1'
   s.requires_arc = true
 
-  s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit', 'StartApp'
+  s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit', 'StartApp', 'RevMobAds'
 
   s.dependency 'AdColony'
   s.dependency 'AFNetworking'
