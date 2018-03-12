@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = "libSicAds.a"
   s.ios.vendored_library = "libSicAds.a"
   s.ios.vendored_frameworks = 'StartApp.framework'
+  s.resource = 'StartApp.bundle'
   # s.social_media_url = "https://twitter.com/<TWITTER_USERNAME>"
 
   s.platform     = :ios, '8.1'
