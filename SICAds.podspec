@@ -27,42 +27,32 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/admincaf/SICAdsLibrary.git", :tag => s.version.to_s }
   s.source_files = "include/*.h"
   s.public_header_files = "include/*.h"
-  s.preserve_paths = "libSICAds.a"
-  s.ios.vendored_library = "libSICAds.a"
+  s.preserve_paths = "libSicAds.a"
+  s.ios.vendored_library = "libSicAds.a"
+  s.ios.vendored_frameworks = 'StartApp.framework'
   # s.social_media_url = "https://twitter.com/<TWITTER_USERNAME>"
 
   s.platform     = :ios, '8.1'
   s.requires_arc = true
 
-  s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
+  s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit', 'StartApp'
 
   s.dependency 'AdColony'
   s.dependency 'AFNetworking'
   s.dependency 'AmazonAd'
-
   s.dependency 'AppLovinSDK'
-
   s.dependency 'ChartboostSDK'
   s.dependency 'FBAudienceNetwork'
   s.dependency 'Flurry-iOS-SDK/FlurryAds'
   s.dependency 'Flurry-iOS-SDK/FlurrySDK'
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'InMobiSDK'
-
-#s.dependency 'MillenialMediaSDK'
   s.dependency 'MMAdSDK'
-
   s.dependency 'MobFoxSDK'
   s.dependency 'mopub-ios-sdk'
   s.dependency 'OneSignal'
-
-#s.dependency 'RevvForMobile'
-
   s.dependency 'SmaatoSDK'
   s.dependency 'SpotX-SDK'
-
-#s.dependency 'StartApp'
-
   s.dependency 'UnityAds'
   s.dependency 'VungleSDK-iOS', '~> 4.1'          #if update -> errors
   s.dependency 'YandexMobileAds'
