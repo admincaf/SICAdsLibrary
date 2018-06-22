@@ -1,4 +1,4 @@
-# SICAds 7.4.15
+# SICAds 7.4.16
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -9,12 +9,15 @@
 ## Steps to upload new library version:
 ```
 1. Add the following two lines to running script of Complete and Push target (updating to latest version):
-    git tag 7.4.15;
-    git push origin 7.4.15;
+    git tag 7.4.16;
+    git push origin 7.4.16;
 2. Build Complete and Push target in order to run its script.
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
+
+## What is new in 7.4.16 version
+1. Downversion SpotX Framework
 
 ## What is new in 7.4.15 version
 1. Updated dependencies versions

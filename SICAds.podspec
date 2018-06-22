@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SICAds"
-  s.version          = "7.4.15"
+  s.version          = "7.4.16"
   s.summary          = "Client SICAds library."
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.resource = 'StartApp.bundle'
   # s.social_media_url = "https://twitter.com/<TWITTER_USERNAME>"
 
-  s.platform     = :ios, '8.1'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.ios.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CFNetwork', 'CoreFoundation', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'EventKit', 'EventKitUI', 'Foundation', 'MediaPlayer', 'MessageUI', 'MobileCoreServices', 'QuartzCore', 'Security', 'Social', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit', 'StartApp', 'RevMobAds'
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   s.dependency 'mopub-ios-sdk'
   s.dependency 'OneSignal'
   s.dependency 'SmaatoSDK'
-  s.dependency 'SpotX-SDK'
+  s.dependency 'SpotX-SDK', '2.3.3'
   s.dependency 'UnityAds'
   s.dependency 'VungleSDK-iOS', '~> 4.1'          #if update -> errors
   s.dependency 'YandexMobileAds'
