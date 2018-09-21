@@ -1,4 +1,4 @@
-# SICAds 7.4.18
+# SICAds 7.4.19
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -9,12 +9,15 @@
 ## Steps to upload new library version:
 ```
 1. Add the following two lines to running script of Complete and Push target (updating to latest version):
-    git tag 7.4.18;
-    git push origin 7.4.18;
+    git tag 7.4.19;
+    git push origin --tags;
 2. Build Complete and Push target in order to run its script.
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
+
+## What is new in 7.4.19 version
+1. Added to version because 7.4.18 failed to load pod
 
 ## What is new in 7.4.18 version
 1. Added custom init method for banner class
