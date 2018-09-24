@@ -1,4 +1,4 @@
-# SICAds 7.4.22
+# SICAds 7.4.23
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -9,12 +9,15 @@
 ## Steps to upload new library version:
 ```
 1. Add the following two lines to running script of Complete and Push target (updating to latest version):
-    git tag 7.4.22;
+    git tag 7.4.23;
     git push origin --tags;
 2. Build Complete and Push target in order to run its script.
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
+
+## What is new in 7.4.23 version
+1. Fixing banner protocol
 
 ## What is new in 7.4.22 version
 1. Fixing banner protocol

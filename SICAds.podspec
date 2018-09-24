@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SICAds"
-  s.version          = "7.4.22"
+  s.version          = "7.4.23"
   s.summary          = "Client SICAds library."
 
 # This description is used to generate tags and improve search results.
