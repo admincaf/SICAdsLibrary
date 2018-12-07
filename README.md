@@ -1,4 +1,4 @@
-# SICAds 7.4.33
+# SICAds 7.4.34
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -15,6 +15,9 @@
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
+
+## What is new in 7.4.34 version
+1. Reloading cocoapod after failed attempt
 
 ## What is new in 7.4.33 version
 1. Reloading cocoapod after failed attempt
