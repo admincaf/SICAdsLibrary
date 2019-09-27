@@ -1,4 +1,4 @@
-# SICAds 7.4.45
+# SICAds 7.4.46
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -16,7 +16,7 @@
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
 
-## What is new in 7.4.45 version
+## What is new in 7.4.46 version
 1. XCode 11 support
 2. iOS 13 support
 
