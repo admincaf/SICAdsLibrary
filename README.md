@@ -1,4 +1,4 @@
-# SICAds 7.4.49
+# SICAds 7.4.50
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -9,14 +9,14 @@
 ## Steps to upload new library version:
 ```
 1. Add the following two lines to running script of Complete and Push target (updating to latest version):
-    git tag 7.4.49
+    git tag 7.4.50
     git push origin --tags
 2. Build Complete and Push target in order to run its script.
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
 
-## What is new in 7.4.49 version
+## What is new in 7.4.50 version
 1. Changed MoPub version getter because sharedInstance started a timer that was causing a crash.
 
 ## What is new in 7.4.48 version
