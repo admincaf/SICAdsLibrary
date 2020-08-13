@@ -1,4 +1,4 @@
-# SICAds 7.4.54
+# SICAds 7.4.55
 
 ![SICAds](https://s22.postimg.org/4lcwytm6p/SIC.png)
 
@@ -9,14 +9,14 @@
 ## Steps to upload new library version:
 ```
 1. Add the following two lines to running script of Complete and Push target (updating to latest version):
-    git tag 7.4.54
+    git tag 7.4.55
     git push origin --tags
 2. Build Complete and Push target in order to run its script.
 3. pod spec lint SICAds.podspec --verbose --allow-warnings
 4. pod trunk push SICAds.podspec --allow-warnings
 ```
 
-## What is new in 7.4.54 version
+## What is new in 7.4.55 version
 1. Updated pods dependencies and migrated few SDK changes.
 
 ## What is new in 7.4.50 version
